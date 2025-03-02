@@ -60,4 +60,50 @@ body .container header .info .subtitle {
     max-width: 70%;
     font-size: 1rem;
     margin: 0 auto 20px;
+    font-size: 1rem;
+}
+
+body .details {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.16);
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+body .details .item .item-title {
+    color: #ccc;
+}
+
+body .details .item .item-text{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+body .article {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    line-height: 1.60;
+}
+
+body .article h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+body .article p {
+    margin-bottom: 20px;
+    color: #999;
+    font-size: 1.1rem;
+}
+
+body .article blockquote {
+    margin: 40px 0;
+    background-color: #181818;
+    padding: 20px;
+    border-radius: 16px;
 }
