@@ -80,7 +80,6 @@ body .details .item .item-title {
 
 body .details .item .item-text{
     font-size: 1.2rem;
-    margin-top: 10px;
 }
 
 body .article {
@@ -107,3 +106,61 @@ body .article blockquote {
     padding: 20px;
     border-radius: 16px;
 }
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background-color: #202020;
+    align-items: center;
+}
+
+footer .container .footer-social a {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+
+
+/* Responsive Codes */
+@media screen and (max-width: 768px) {
+    body .container header {
+        padding: 10px 20px 30px;
+        min-height: 300px
+    }
+
+    body .container header .category {
+        font-size: 0.8rem;
+    }
+    
+    body .container header .info .title {
+        font-size: 1.6rem;
+    }
+
+    body .container header .info .subtitle {
+        font-size: 0.8rem;
+    }
+
+    body .container .details {
+        flex-direction: column
+    }
+
+    body .container .details .item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    footer .container {
+        align-items: center;
+    }
+
+    footer .container .footer-content {
+        font-size: 0.6rem
+    }
+
+    footer .container .footer-social a{
+        font-size: 0.8rem
+    }
+    
+
+};
+    
